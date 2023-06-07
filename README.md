@@ -35,18 +35,18 @@ Permissioned access and log-ins for network users Gateway access to the Internet
 6. add the attributesin the end device as  shown below 
  ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/00bff30b-42fc-42d5-9540-285d270e41cb)
 7.using AT commands configure end device in serial port utility
-AT Commands to set initially (Mandatory)
- AT+FDR // To do factory data reset
- AT+NJM=1 // To set OTAA mode
- AT+ADR=1 // To enable the ADR
- AT+TDC=600000 // To set the default sampling interval as 10 minutes
-(Should not give below 5 minutes)
- AT+CLASS=C // To set class C
- AT+DEUI=XX XX XX XX XX XX XX XX // To set Device EUI key
- AT+APPEUI=XX XX XX XX XX XX XX XX // To set APP EUI key
- AT+APPEUI=XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX //
-To set APP Key
- ATZ // To take effective action on below settings (As like saving)
+AT Commands to set initially (Mandatory)  
+ AT+FDR // To do factory data reset  
+ AT+NJM=1 // To set OTAA mode  
+ AT+ADR=1 // To enable the ADR  
+ AT+TDC=600000 // To set the default sampling interval as 10 minutes  
+(Should not give below 5 minutes)  
+ AT+CLASS=C // To set class C  
+ AT+DEUI=XX XX XX XX XX XX XX XX // To set Device EUI key  
+ AT+APPEUI=XX XX XX XX XX XX XX XX // To set APP EUI key  
+ AT+APPEUI=XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX //  
+To set APP Key  
+ ATZ // To take effective action on below settings (As like saving)  
 
 
 
