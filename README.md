@@ -1,9 +1,13 @@
- ### EXPERIMENT -07 CONFIGURING NETWORK SERVER FOR CONNECTING GATEWAY AND END NODE 
+# EXPERIMENT 07:CONFIGURING NETWORK SERVER FOR CONNECTING GATEWAY AND END NODE 
  
-## Aim: To  configure  the Network server and end device for traferring data on the network
-## Components required: end node stm 32 development kit , dragino LPS8, network server 
+## AIM: 
+To  configure  the Network server and end device for traferring data on the network
+## COMPONENT'S REQUIRED: 
+* End node stm 32 development kit .
+* Dragino LPS8.
+* Network server.
 
-## Theory :
+## THEORY:
 When working with sensitive applications or files, saving progress on your local device is a start, but what if you lose access to your device? Network servers address this problem by hosting the files and programs most pertinent to the network and enabling access for consistent, real-time use. 
 
 As a result, personnel or network clients can instantly access important data or tools while also facilitating collaboration between users. Multiple users can make changes to the same program or document for continued development over the course of a project. Via a secure login, remote users can connect to the home network.
@@ -16,7 +20,7 @@ In the above graphic, the circle represents an organization network where a netw
 
 Permissioned access and log-ins for network users Gateway access to the Internet for an organization Centralized location for network resources  Shared access to devices on the network like a printer or a scanner Hosts multi-user apps like email servers, web applications, or CRM
 
-## Procedure :
+## PROCEDURE:
 
  1. login to the network server using login link  https://iot.saveetha.in/
  2. Click on the nework server as shown blow 
@@ -46,13 +50,12 @@ To set APP Key
 
 
 
-## OUTPUT 
+## OUTPUT:
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/858435f2-2f59-435d-ad3f-7ecd377bd0da)
 
 
 
 
-## Results: 
-
-  The Network server and end device for traferring data on the network has been accomplished.
+## RESULT: 
+The Network server and end device for traferring data on the network has been accomplished.
 
